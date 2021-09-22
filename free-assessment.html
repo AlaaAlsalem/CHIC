@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+   <title>Canadian Hub Immigration Consultation - CHIC</title>
+   <!-- Google Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600,300,700' rel='stylesheet' type='text/css'>
+   <!-- ionicons Fonts for icons -->
+   <link href="css/ionicons.min.css" rel="stylesheet">
+   <!-- bootstrap -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <!-- Styles CSS-->
+   <link href="css/style.css" rel="stylesheet">
+   <!-- Animate CSS-->
+   <link href="css/animate.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   <script
+   src="https://code.jquery.com/jquery-3.6.0.min.js"
+   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+   crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js" ></script>
+   
+</head>
+<style>
+    .spacer {
+  margin-top: 50px;
+}
+ 
+</style>
+<script type="text/javascript">
+    $(function () {
+    
+    $('#cmd').click(function () {
+    var doc = new jsPDF();
+    doc.addHTML($('#content'), 15, 15, {
+    'background': '#fff',
+    'border':'2px solid white',
+    }, function() {
+    doc.save('sample-file.pdf');
+    });
+    });
+    });
+    </script>
+<body  >
+ 
+
+<div class="container">
+    <div class="row">
+     
+        <div class="col-sm-12">
+            <div class="col-md-5">
+ 
+            </div>
+            <div class="col-md-2">
+               <img class="footer-logo" src="images/loggo.svg" alt="Enfold"> 
+
+                </div>
+                <div class="col-md-5">
+ 
+                    </div>
+            </div>
+            <h1 style="text-align: center;">Free Assessment Form</h1> 
+            <!-- action="mailto:you@yourwebsite.com" -->
+            <form role="form"  id="smdiv"   action="mailto:you@yourwebsite.com"  enctype="text/plain"  method="POST" >
+                
+
+                <div id="content">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="control-label">NAME</label>
+                            <input type="text" class="form-control"   NAME="name" > 
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="control-label">E-MAIL</label>
+                            <input type="email" class="form-control" name="Email">
+                        </div>
+                   </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="control-label">PHONE</label>
+                            <input type="tel" class="form-control" name='phone'>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="control-label">NATIONALITY</label>
+                            <select name="nationality" class="form-control selectpicker">
+                                <option value="">Please select your nationality</option>
+                                <option>Afghan</option>
+                                <option>Albanian</option>
+                                <option>Algerian</option>
+                                <option>American</option>
+                                <option>Andorran</option>
+                                <option>Angolan</option>
+                                <option>Antiguans</option>
+                                <option>Argentinian</option>
+                                <option>Armenian</option>
+                                <option>Australian</option>
+                                <option>Austrian</option>
+                                <option>Azerbaijani</option>
+                                <option>Bahamian</option>
+                                <option>Bahraini</option>
+                                <option>Bangladeshi</option>
+                                <option>Barbadian</option>
+                                <option>Barbudans</option>
+                                <option>Botswana</option>
+                                <option>Belarussian</option>
+                                <option>Belgian</option>
+                                <option>Belizean</option>
+                                <option>Beninese</option>
+                                <option>Bhutanese</option>
+                                <option>Bolivian</option>
+                                <option>Bosnian</option>
+                                <option>Brazilian</option>
+                                <option>British</option>
+                                <option>Bruneian</option>
+                                <option>Bulgarian</option>
+                                <option>Burkinabe</option>
+                                <option>Burmese</option>
+                                <option>Burundian</option>
+                                <option>Cambodian</option>
+                                <option>Cameroonian</option>
+                                <option>Canadian</option>
+                                <option>Cape Verdean</option>
+                                <option>Central African</option>
+                                <option>Chadian</option>
+                                <option>Chilean</option>
+                                <option>Chinese</option>
+                                <option>Colombian</option>
+                                <option>Comoran</option>
+                                <option>Congolese</option>
+                                <option>Costa Rican</option>
+                                <option>Croatian</option>
+                                <option>Cuban</option>
+                                <option>Cypriot</option>
+                                <option>Czech</option>
+                                <option>Danish</option>
+                                <option>Djibouti</option>
+                                <option>Dominican</option>
+                                <option>Dutch</option>
+                                <option>East Timorese</option>
+                                <option>Ecuadorean</option>
+                                <option>Egyptian</option>
+                                <option>Emirati</option>
+                                <option>Equatorial Guinean</option>
+                                <option>Eritrean</option>
+                                <option>Estonian</option>
+                                <option>Ethiopian</option>
+                                <option>Fijian</option>
+                                <option>Filipino</option>
+                                <option>Finnish</option>
+                                <option>French</option>
+                                <option>Gabonese</option>
+                                <option>Gambian</option>
+                                <option>Georgian</option>
+                                <option>German</option>
+                                <option>Ghanaian</option>
+                                <option>Greek</option>
+                                <option>Grenadian</option>
+                                <option>Guatemalan</option>
+                                <option>Guinea-Bissauan</option>
+                                <option>Guinean</option>
+                                <option>Guyanese</option>
+                                <option>Haitian</option>
+                                <option>Honduran</option>
+                                <option>Hungarian</option>
+                                <option>Icelander</option>
+                                <option>Indian</option>
+                                <option>Indonesian</option>
+                                <option>Iranian</option>
+                                <option>Iraqi</option>
+                                <option>Irish</option>
+                                <option>Israeli</option>
+                                <option>Italian</option>
+                                <option>Ivorian</option>
+                                <option>Jamaican</option>
+                                <option>Japanese</option>
+                                <option>Jordanian</option>
+                                <option>Kazakhstani</option>
+                                <option>Kenyan</option>
+                                <option>Kiribati</option>
+                                <option>Kittian and Nevisian</option>
+                                <option>Kuwaiti</option>
+                                <option>Kyrgyz</option>
+                                <option>Laotian</option>
+                                <option>Latvian</option>
+                                <option>Lebanese</option>
+                                <option>Liberian</option>
+                                <option>Libyan</option>
+                                <option>Liechtensteiner</option>
+                                <option>Lithuanian</option>
+                                <option>Luxembourger</option>
+                                <option>Macedonian</option>
+                                <option>Malagasy</option>
+                                <option>Malawian</option>
+                                <option>Malaysian</option>
+                                <option>Maldivan</option>
+                                <option>Malian</option>
+                                <option>Maltese</option>
+                                <option>Marshallese</option>
+                                <option>Mauritanian</option>
+                                <option>Mauritian</option>
+                                <option>Mexican</option>
+                                <option>Micronesian</option>
+                                <option>Moldovan</option>
+                                <option>Monacan</option>
+                                <option>Mongolian</option>
+                                <option>Moroccan</option>
+                                <option>Mosotho</option>
+                                <option>Motswana</option>
+                                <option>Mozambican</option>
+                                <option>Namibian</option>
+                                <option>Nauruan</option>
+                                <option>Nepalese</option>
+                                <option>New Zealander</option>
+                                <option>Nicaraguan</option>
+                                <option>Nigerian</option>
+                                <option>North Korean</option>
+                                <option>Norwegian</option>
+                                <option>Omani</option>
+                                <option>Pakistani</option>
+                                <option>Palauan</option>
+                                <option>Panamanian</option>
+                                <option>Papua New Guinean</option>
+                                <option>Paraguayan</option>
+                                <option>Peruvian</option>
+                                <option>Polish</option>
+                                <option>Portuguese</option>
+                                <option>Qatari</option>
+                                <option>Romanian</option>
+                                <option>Russian</option>
+                                <option>Rwandan</option>
+                                <option>St. Lucian</option>
+                                <option>Salvadoran</option>
+                                <option>Samoan</option>
+                                <option>San Marinese</option>
+                                <option>Sao Tomean</option>
+                                <option>Saudi</option>
+                                <option>Senegalese</option>
+                                <option>Serbian</option>
+                                <option>Seychellois</option>
+                                <option>Sierra Leonean</option>
+                                <option>Singaporean</option>
+                                <option>Slovakian</option>
+                                <option>Slovenian</option>
+                                <option>Solomon Islander</option>
+                                <option>Somali</option>
+                                <option>South African</option>
+                                <option>South Korean</option>
+                                <option>Spanish</option>
+                                <option>Sri Lankan</option>
+                                <option>Sudanese</option>
+                                <option>Surinamer</option>
+                                <option>Swazi</option>
+                                <option>Swedish</option>
+                                <option>Swiss</option>
+                                <option>Syrian</option>
+                                <option>Taiwanese</option>
+                                <option>Tajik</option>
+                                <option>Tanzanian</option>
+                                <option>Thai</option>
+                                <option>Togolese</option>
+                                <option>Tongan</option>
+                                <option>Trinidadian</option>
+                                <option>Tunisian</option>
+                                <option>Turkish</option>
+                                <option>Tuvaluan</option>
+                                <option>Ugandan</option>
+                                <option>Ukrainian</option>
+                                <option>Uruguayan</option>
+                                <option>Uzbekistani</option>
+                                <option>Venezuelan</option>
+                                <option>Vietnamese</option>
+                                <option>West Indian</option>
+                                <option>Yemenite</option>
+                                <option>Zambian</option>
+                                <option>Zimbabwean</option>
+                           </select>
+                      </div>
+                 </div>
+             </div>
+             <div class="form-group">
+                 <div class="row">
+                     <div class="col-sm-12">
+                         <label class="control-label">MESSAGE</label>
+                         <textarea id="message" class="form-control" rows="5" name="message"></textarea>
+                     </div>
+                 </div>
+             </div>
+           
+             
+             <div class="form-group">
+                 <div class="row">
+                     <div class="col-sm-12">
+                         <button      class="btn btn-danger btn-lg pull-left">SEND</button>
+                        
+                     </div>
+                 </div>
+             </div>
+            </div>
+        </form>
+        <button   id="cmd"   class="btn btn-danger btn-lg pull-left"   class=" ">pdf</button>
+
+        </div>
+        
+    </div>			
+</div>
+<!-- <script>  
+    function generatePDF() {
+ var doc = new jsPDF();
+  doc.fromHTML(document.getElementById("test"), // page element which you want to print as PDF
+  15,
+  15, 
+  {
+    'width': 170
+  },
+  function(a) 
+   {
+    doc.save("HTML2PDF.pdf");
+  });
+}
+</script>  -->
+</body>
+</html>
+
+ 
