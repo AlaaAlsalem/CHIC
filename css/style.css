@@ -77,6 +77,7 @@ a (active):    #a67c52 (brown)
 /*=================================================
 1 - BASE 
 =================================================*/
+
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 .buttonn {
   background-color: #a23b3b; /* Green */
@@ -91,6 +92,7 @@ a (active):    #a67c52 (brown)
   cursor: pointer;
   border-radius: 5px;
 }
+ 
 .button3 {background-color: #a23b3b;} /* Red */ 
 /* Slider */
 #slider{
@@ -102,6 +104,10 @@ a (active):    #a67c52 (brown)
 @keyframes load{
   from{left:-100%;}
   to{left:0;}
+}
+
+.pracimg { 
+  border: 0.5px solid red;
 }
 .slides{
   width:400%;
@@ -486,7 +492,7 @@ body {
   font-family:  'Droid Arabic Kufi', serif;
   font-size: 13px;
   line-height: 24px;
-  color: #7d7d7d;
+ 
   font-weight: 400;
   letter-spacing: 0.06em;
   background-color: #fff;
@@ -555,6 +561,11 @@ body {
   text-align: center;
 }
 
+ 
+label{
+  font-size: 20px !important ;
+  font-weight: 100 !important;
+}
 .cssload-loading,
 .cssload-loading:after,
 .cssload-loading:before {
@@ -747,7 +758,7 @@ h2 {
 h3 {
   font-size: 28px;
   line-height: 1.285714285714286em;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 2px;
 }
 
@@ -775,19 +786,19 @@ h1,
 h1 a,
 h3,
 h3 a {
-  color: #5d5d5d
+   
 }
 
 h2,
 h2 a,
 h5,
 h5 a {
-  color: #494949;
+   
 }
 
 h4,
 h4 a {
-  color: #8b8b8b
+  
 }
 
 h6,
@@ -821,7 +832,7 @@ h6 a:hover {
 
 a,
 p a {
-  color: #393939;
+ 
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all .15s linear;
@@ -5533,7 +5544,7 @@ input[type="submit"]:focus {
 
 .footer-area-container .footer-logo {
   margin-bottom: 25px;
-  width: 150px;
+  width: 150px !important;
   margin-left: 20px;
   text-align: center;
 }
