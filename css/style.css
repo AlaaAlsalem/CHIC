@@ -77,10 +77,12 @@ a (active):    #a67c52 (brown)
 /*=================================================
 1 - BASE 
 =================================================*/
+ 
 
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+ 
+ @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 .buttonn {
-  background-color: #a23b3b; /* Green */
+  background-color: #d63737; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -93,7 +95,7 @@ a (active):    #a67c52 (brown)
   border-radius: 5px;
 }
  
-.button3 {background-color: #a23b3b;} /* Red */ 
+.button3 {background-color: #c42222;} /* Red */ 
 /* Slider */
 #slider{
   width:100%;
@@ -2036,18 +2038,19 @@ span.description {
 =================================================*/
 
 .button {
-  color: #8a8f6a;
-  font-size: 11px;
+  background-color: red !important;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
   font-weight: 600;
-  padding: 0 40px;
+  padding: 0 10px;
   height: 45px;
   line-height: 45px;
   margin: 5px 0;
   border: 1px solid #cfcfcf;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 0px;
+  border-radius: 5px !important  ;
   background-color: transparent;
   text-transform: uppercase;
   text-align: center;
@@ -2060,14 +2063,13 @@ span.description {
 }
 
 .button a {
-  color: #a67c52;
+  color:  #a67c52;
 }
 
-.button:hover {
-  background-color: #8a8f6a;
-  color: #fff;
-  border-color: #8A8F6A !important;
-}
+ .button:hover{
+  color:  white;
+  background-color: red;
+ }
 
 .green-button {
   background-color: #8a8f6a;
