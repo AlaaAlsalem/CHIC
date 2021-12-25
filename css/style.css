@@ -237,32 +237,7 @@ a (active):    #a67c52 (brown)
 
 /* Animation */
  
-@keyframes slide{
-  0%,100%{
-    margin-left:0%;
-  }
-  21%{
-    margin-left:0%;
-  }
-  25%{
-    margin-left:-100%;
-  }
-  46%{
-    margin-left:-100%;
-  }
-  50%{
-    margin-left:-100%;
-  }
-  71%{
-    margin-left:-100%;
-  }
-  75%{
-    margin-left:-100%;
-  }
- 100%{
-    margin-left:-100%;
-  }
-}
+ 
 
  
  
